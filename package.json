@@ -1,0 +1,19 @@
+{
+	"name": "info",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "serve public",
+		"format": "prettier --write '**/*.{json,md}'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mingchia-andy-liu/info.git"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"prettier": "^2.8.1",
+		"serve": "^14.1.2"
+	}
+}
