@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>My personal links</title>
+	<link rel="icon" type="image/png" href="./static/headshot.png" />
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://i.aliu.dev" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Andy Liu | My personal links" />
+	<meta property="og:description" content="Checkout them out (◍•ᴗ•◍)" />
+	<meta property="og:image" content="./static/headshot.png" />
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="linktr.ee" />
+	<meta property="twitter:url" content="https://i.aliu.dev" />
+	<meta name="twitter:title" content="Andy Liu | My personal links" />
+	<meta name="twitter:description" content="Checkout them out (◍•ᴗ•◍)" />
+	<meta name="twitter:image" content="./static/headshot.png" />
+
+	<style>
+		body {
+			font-family: Verdana, sans-serif;
+			margin: auto;
+			padding: 20px;
+			max-width: 50%;
+			min-width: 300px;
+			text-align: left;
+			line-height: 1.5;
+			color: #333;
+			font-size: 1rem;
+
+			/* background-color: #d1f6ff; */
+			background-image: url('./static/background.png');
+			background-repeat: repeat;
+			background-size: contain;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		footer {
+			padding: 25px;
+			text-align: center;
+		}
+
+		ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		li {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 0.5rem 0;
+			width: 100%;
+
+			background-color: #fff;
+			color: rgb(8, 49, 112);
+			box-shadow: rgba(8, 49, 112, 0.24) 0px 2px 8px 0px;
+			transition: transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+				box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+			border-radius: 2rem;
+		}
+
+		li:hover {
+			box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.3);
+			transform: scale(1.01);
+			transform-origin: 50% 50%;
+		}
+
+		li a {
+			width: 100%;
+			text-align: center;
+			padding: 0.5rem 0;
+		}
+
+		li a:visited {
+			color: rgb(8, 49, 112);
+		}
+
+		.flex-center {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			display: block;
+			object-fit: contain;
+			object-position: initial;
+			filter: none;
+		}
+	</style>
+</head>
+
+<body>
+	<header class="flex-center">
+		<img src="./static/headshot.png" class="logo" />
+		<h1>@aliu</h1>
+	</header>
+	<section>
+		<ul class="flex-center">
+			<li>
+				<a href="https://aliu.dev" rel="noreferrer" target="_blank">Personal site</a>
+			</li>
+
+			<li>
+				<a href="https://blog.aliu.dev" rel="noreferrer" target="_blank">Blog</a>
+			</li>
+
+			<li>
+				<a href="https://github.com/mingchia-andy-liu" rel="noreferrer" target="_blank">Github</a>
+			</li>
+
+			<li>
+				<a href="https://ca.linkedin.com/in/mingchia-andy-liu" rel="noreferrer" target="_blank">LinkedIn</a>
+			</li>
+		</ul>
+	</section>
+</body>
+
+</html>
